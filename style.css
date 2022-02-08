@@ -1,0 +1,100 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+    /* Button*/
+.button{
+    height: 40px;
+    width: 120px;
+    background-color:#FFD966;
+    border: 3px solid black;
+    position: relative;
+    right: 260px;
+    top: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 3px 3px black;
+}
+.button:hover{
+    background-color: #ec804e; /* Green */
+    color: white;
+}
+
+/*Flex-columns and rows*/
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightcyan;
+}
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: palegreen;
+}
+.col-3{
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: slateblue;
+}
+/*navbar*/
+*{
+    list-style: none;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-decoration: none;
+}
+.nav-links{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    width: 700px;
+    padding: 0;
+    margin-left: 819px;
+    position: relative;
+    bottom: 65px;
+}
+.nav-title{
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+}
+a{
+    text-decoration: red;
+    color: #C6C6C6;
+    position: relative;
+    top: 5px;
+}
+li{
+    margin: 20px;
+}
+.btn{
+    background-color:rgb(124, 209, 209);
+    Color: white;
+    height: 35px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.active{
+    color: white;
+}
+
